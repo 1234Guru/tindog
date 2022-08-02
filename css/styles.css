@@ -1,0 +1,184 @@
+
+#title{
+    background-color:#76BA99;
+}
+.navbar{
+    font-family:"ubuntu";
+}
+
+.h-one{
+    font-family:"Montserrat-black";
+    color:white;
+    opacity: 70%;
+    font-size:4rem;
+    font-weight:bolder;
+    line-height:1.5;
+}
+
+.container-fluid{
+    padding: 3% 10% 7%;
+}
+/*first section*/
+.h-one:hover{
+    opacity:100%;
+}
+/* image */
+.image-rotate{
+    transform: rotate(26deg);
+   width:19%;
+  position: absolute;
+}
+
+@media (max-width:500px){
+    .image-rotate{
+        margin-top:20px  ;
+        transform: rotate(0);
+        position: static;
+        width:100%;
+}
+#button{
+  text-align: center;
+  margin:0px auto ;
+  display: flex ;
+}
+.h-one{
+    font-size: 3rem;
+}
+a.navbar-brand{
+    font-size: 1.8rem!important;
+}
+}
+
+/* nav link*/
+.nav-item{
+    padding:0px 20px;
+    font-size:20px;
+}
+/* icons section*/
+.fa-solid{
+    color:#ef8172;
+    /* font-size:60px; */
+}
+.fa-solid:hover{
+    color:#ff4c68;
+}
+
+/* section2 */
+#features{
+  background-color: #ffffff;
+  
+   position: relative;
+}
+.three-icons{
+   text-align: center;
+   padding:5% 5%;
+  
+  
+}
+.hthree{
+    
+    font-weight:700;
+    font-size: 2rem;
+}
+.eight-f{
+    color:#808080;
+    font-size:1em;
+}
+@media (max-width:400px){
+    .three-icons{
+        padding:1% 3%;
+     }
+}
+/* testimonials */
+#testimonials{
+   background-color: #76BA99;
+   padding:7% 16%;
+   text-align: center;
+   color:#fff;
+}
+.htwo{
+    color:#fff;
+    font-size:3.5rem;
+    text-align: center;
+    line-height:1.5;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 10px;;
+}
+@media (max-width:500px){
+    .htwo{
+        color:#fff;
+        font-size:1.5rem;
+        text-align: center;
+        line-height:1.5;
+    }
+    .testimonial-image{
+        width:30%;
+        border-radius: 100%;
+        margin: 10px;;
+    }
+}
+/* logos */
+#press
+{
+    text-align: center;
+    background-color: #76BA99;
+    padding-bottom:4%;
+}
+.press-logo{
+    width:15%;
+}
+@media (max-width:500px){
+    .press-logo{
+        width:20%;
+    }
+    #press
+{
+    
+    padding-bottom:7%;
+}
+}
+
+/* pricing cards */
+#pricing{
+    padding:5% 10%;
+    text-align: center;
+}
+
+.pricing-column {
+ padding:4% 2%;
+}
+
+/* last section */
+#cta{
+    background-image:linear-gradient(#37d6ca,#7dfff0 80% );
+    padding:5% 15%;
+    text-align: center;
+}
+.h-three{
+   font-size: 3rem;
+   color:#fff;
+}
+@media (max-width:500px){
+    #cta{
+        padding:3% 10%;
+    }
+.h-three{
+    font-size: 1.3rem;
+}
+.cta{
+   width: 49%!important;;
+   margin-bottom: 3%;
+}
+}
+/* footer */
+#footer{
+    padding:5% 15%;
+    text-align: center;
+}
+.footer-icons{
+    user-select: none;
+}
